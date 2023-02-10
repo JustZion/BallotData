@@ -1,10 +1,12 @@
 .App {
-  background-color: white;
+  background-color: red;
+  height: 100vh;
+  
   
 }
 
 .ballot {
- width: 100% !important;
+ 
   
 }
 
@@ -16,25 +18,15 @@
   font-weight: 600;
 }
 
-.mainTab {
-  width: 85%;
-  min-width: 300px !important;
-}
 
-@media only screen and (max-width: 900px) {
-  .mainTab {
-    width: 85%;
-    min-width: 300px !important;
-  }
-}
 
 .categories {
   background-color: #BAC8D3;
   margin: 30px 0px 20px 0px;
   padding: 10px 0px 10px 12px;
   text-transform: capitalize;
-  border: 3px solid #23445D;
-  font-size: 22px;
+  border: 2px solid #23445D;
+  font-size: 20px;
 }
 
 .App-header {
@@ -102,7 +94,7 @@
   color: #121212 !important;
   height: 70px;
   font-size: 20px !important;
-  min-width: 350 !important;
+  min-width: 600px !important;
   border-radius: 10px !important;
   box-shadow: none !important;
   border: 3px solid #82B366 !important ;
@@ -110,7 +102,7 @@
   z-index: 10 !important;
   letter-spacing: 1px !important;
   font-weight: 700 !important;
-  word-spacing: 3px !important;
+  word-spacing: 5px !important;
 }
 
 .bottomButton:hover {
@@ -119,11 +111,5 @@
 
 .doneIcon {
   position: relative !important;
-  top: 5px; left: 10px;
-}
-
-.disabled {
-  background-image: none;
-  border: 0px solid white !important;
-  color: grey !important;
+  top: 5px; left: 20px;
 }

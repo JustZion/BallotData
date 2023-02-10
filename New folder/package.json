@@ -31,8 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backend": "nodemon ./api/index.js",
-    "dev": "netfliy dev"
+    "backend": "nodemon ./api/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -52,8 +51,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000",
-  "devDependencies": {
-    "netlify-cli": "^12.11.0"
-  }
+  "proxy": "http://localhost:3000"
 }
