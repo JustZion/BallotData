@@ -122,8 +122,3 @@
   top: 5px; left: 10px;
 }
 
-.disabled {
-  background-image: none;
-  border: 0px solid white !important;
-  color: grey !important;
-}
